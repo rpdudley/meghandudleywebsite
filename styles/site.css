@@ -1,37 +1,32 @@
-/*STYLE SHEET FOR RYAN'S SITE*/
-
-body {			
-font-family:arial, verdana, helvetica; 
-color: black; 
-font-size:14px;
-background-color: #000000 
+body {
+	font-family: tahoma, arial, helvetica, sans-serif;
+	color: black;
+	background-color: #99A6AF;
 }
-.container
-{ 
-    width: 50%;
-    height: 50%;
-    position: absolute; 
-    top: 0;
-    left: 0;
-    background-color: #FFFFFF;
-    border-radius: 10px
+
+#page {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	background-color: #99A6AF;;
+}
+
+body, #socialIcons, #top *, #menu *, #content_bottom *, #bottom *, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#top {
+	height: 900px;
+	background-image: url(../images/elvis.jpg);
+	background-repeat: no-repeat;
+	color: white;
+    border-radius: 30px;
 }
 
 h1 { 
 font-family:arial, sans-serif; 
 color:blue; 
 font-size:32px;
-} 
-
-h2 {			
-font-family:arial, sans-serif; 
-color:black; 
-font-size:27px;
-} 
-
-h3 {
-font-family:arial, sans-serif; 
-color: black; 
-font-size:16px;
-} 
-
+}
